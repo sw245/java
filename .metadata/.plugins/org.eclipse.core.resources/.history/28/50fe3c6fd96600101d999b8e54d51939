@@ -1,0 +1,12 @@
+package ja0722;
+
+import java.util.Scanner;
+
+public class C0722_14 {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+	}
+
+}

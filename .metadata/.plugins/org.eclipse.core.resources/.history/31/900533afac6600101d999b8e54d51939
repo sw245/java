@@ -1,0 +1,16 @@
+package ja0722;
+
+import java.util.Scanner;
+
+public class C0722_06 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("문자를 입력하세요.");
+		String input = scan.next();
+		
+		
+	}
+
+}

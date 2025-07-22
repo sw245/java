@@ -1,0 +1,14 @@
+
+public class C0721_06 {
+
+	public static void main(String[] args) {
+		
+		// overflow;
+		
+		byte b = 127;
+		System.out.print(b);
+		b = (byte) (b + (byte)10);
+
+	}
+
+}

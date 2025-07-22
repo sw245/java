@@ -1,0 +1,76 @@
+package ja0722;
+
+import java.util.Scanner;
+
+public class C0722_09 {
+
+	public static void main(String[] args) {
+		
+		// 양수, 0, 음수
+		
+		Scanner scan = new Scanner(System.in);
+		
+		/*
+		System.out.println("숫자를 입력하세요.");
+		int input = scan.nextInt();
+		
+		if(input > 0) {
+			System.out.println("양수입니다.");			
+		}else if(input == 0) {
+			System.out.println("0입니다.");
+		}else {
+			System.out.println("음수입니다.");
+		}
+		*/
+		
+		// 90점 이상 A, 80-B, 70-C, 60-D / F
+		/*
+		System.out.println("점수를 입력하세요.");
+		int score = scan.nextInt();
+		
+		if(score>=90) {
+			System.out.println("A");
+		}else if(score >= 80) {
+			System.out.println("B");
+		}else if(score >= 70) {
+			System.out.println("C");
+		}else if(score >= 60) {
+			System.out.println("D");
+		}else {
+			System.out.println("F");
+		}
+		*/
+		// 97점 이상 A+, 93 A-, 87 B+, 83 B-
+		System.out.println("점수를 입력하세요.");
+		String score = scan.next();
+		int c1 = score.charAt(0);
+		int c2 = score.charAt(1);
+		
+		String grade;
+		
+		if(c1 == 9) {
+			grade = "A";
+		}else if(c1 == 8) {
+			grade = "B";
+		}else if(c1 == 7) {
+			grade = "C";
+		}else if(c1 == 6) {
+			grade = "D";
+		}else {
+			grade = "F";
+		}
+		
+		if(c2 >= 7) {
+			grade += "+";
+		}else if(c2 <= 3) {
+			grade += "-";
+		}
+		
+		if(score == "100") {
+			grade = "A+";
+		}
+		
+		System.out.println("등급 : "+grade);
+		
+	}
+}

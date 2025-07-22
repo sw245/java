@@ -1,0 +1,15 @@
+
+public class C0721_04 {
+	public static void main(String[] args) {
+		
+		boolean power = true;
+		char ch = 'A';
+		char ch2 = '\u0061';	// >> 16진수>10진수: 16*4 + 1*1 = 65	// '역슬래시u' - 16진수 표현?
+		char ch3 = 40;	// char - 문자형으로 선언 시, 16진수 표현으로 자동 변환
+		
+		System.out.println("power : "+power);
+		System.out.println("ch : "+ch);
+		System.out.println("ch2 : "+ch2);
+		System.out.println("ch3 : "+ch3);
+	}
+}

@@ -1,0 +1,51 @@
+
+public class c0721_01 {
+
+	public static void main(String[] args) {
+//		print('안녕하세요');
+		System.out.println("안녕하세요.");
+		System.out.println("java start");
+
+		
+		// char
+		
+		char c = 'A';
+//		char a = "a";	// 문자형은 홑따옴표 사용 
+//		char a = 'AB';  // 한 개의 문자만 가능
+		char c2 = 'B';
+		System.out.print(c);
+		System.out.print(c2);
+		
+		
+		String str = "AB";	// 문자열 변수 > 객체?
+		System.out.println(str);
+		
+		
+		// boolean - true or false
+		
+		boolean b = true;	// 소문자로 표기
+		boolean b2 = false;
+		
+		
+		// 정수형 - byte, short, int, long
+		// 주로 int와 long만 씀
+		
+		// int > 대략 +-21억까지 저장 가능
+		int i = 10;
+//		int i2 = 20000000000000000;
+		int i3 = 2000;
+		
+		// byte > 대략 +-127까지 저장 가능
+		byte bi = 
+		
+		// long > 대략 +-900경까지
+				
+		// short > 대략 +-32000 정도 저장 가능
+		
+		
+		
+		
+		
+	}
+
+}

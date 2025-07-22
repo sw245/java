@@ -1,0 +1,10 @@
+package ja0722;
+
+public class C0722_04 {
+
+	public static void main(String[] args) {
+		double pi = 3.141592;
+
+	}
+
+}

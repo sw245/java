@@ -1,0 +1,10 @@
+
+public class c0721_01 {
+
+	public static void main(String[] args) {
+//		print('안녕하세요');
+		System.out.println("안녕하세요.");
+
+	}
+
+}

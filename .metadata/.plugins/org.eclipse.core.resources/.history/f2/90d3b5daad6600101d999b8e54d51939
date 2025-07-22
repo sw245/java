@@ -1,0 +1,25 @@
+package ja0722;
+
+import java.util.Scanner;
+
+public class C0722_06 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("문자를 입력하세요.");
+		String input = scan.nextLine();		
+		System.out.println("입력 : "+input);
+		
+		char ch = input.charAt(0);
+		
+		// 첫글자가 영문 소문자인지 구별
+		
+		if(ch>='a' && ch<='z') {
+			System.out.println("첫 글자가 영문 소문자입니다.");
+		}else {
+			System.out.println("첫 글자가 영문 소문자가 아닙니다.");
+		}
+	}
+
+}

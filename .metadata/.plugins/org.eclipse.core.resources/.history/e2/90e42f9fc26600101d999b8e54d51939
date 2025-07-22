@@ -1,0 +1,44 @@
+package ja0722;
+
+import java.util.Scanner;
+
+public class C0722_09 {
+
+	public static void main(String[] args) {
+		
+		// 양수, 0, 음수
+		
+		Scanner scan = new Scanner(System.in);
+		
+		/*
+		System.out.println("숫자를 입력하세요.");
+		int input = scan.nextInt();
+		
+		if(input > 0) {
+			System.out.println("양수입니다.");			
+		}else if(input == 0) {
+			System.out.println("0입니다.");
+		}else {
+			System.out.println("음수입니다.");
+		}
+		*/
+		
+		// 90점 이상 A, 80-B, 70-C, 60-D / F
+		
+		System.out.println("점수를 입력하세요.");
+		int score = scan.nextInt();
+		
+		if(score>=90) {
+			System.out.println("A");
+		}else if(score >= 80) {
+			System.out.println("B");
+		}else if(score >= 70) {
+			System.out.println("C");
+		}else if(score >= 60) {
+			System.out.println("D");
+		}else {
+			System.out.println("F");
+		}
+			
+	}
+}

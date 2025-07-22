@@ -1,0 +1,13 @@
+
+public class C0721_05 {
+
+	public static void main(String[] args) {
+		char ch = 'A';
+		String str = "AB";
+//		char ch3 = ''	// 에러 (아무 값이 없을 수 없음)
+		char ch4 = ' '; // 빈 공백 문자 > 가능
+		String str2 = "";	// String은 가능
+		
+	}
+
+}

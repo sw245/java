@@ -1,0 +1,15 @@
+package ja0722;
+
+import java.util.Scanner;
+
+public class C0722_09 {
+
+	public static void main(String[] args) {
+		// 양수, 0, 음수
+		
+		Scanner scan = new Scanner(System.in);
+		
+
+	}
+
+}

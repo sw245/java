@@ -1,0 +1,42 @@
+package ja0722;
+
+import java.util.Scanner;
+
+public class C0722_08 {
+
+	public static void main(String[] args) {
+//		final int MAX = 10;
+//		MAX = 5;
+		
+		// 조건문 - if, switch
+		// 반복문 - for, while
+		
+		int num = 5;
+		
+		if(num % 2 == 0) {
+			System.out.println("짝수");
+		}else {
+			System.out.println("홀수");
+		}
+		
+		Scanner scan = new Scanner(System.in);
+		String jumin = "880101-1011111";
+		String jumin2 = "991231-2011111"; 
+		
+		
+		// 남자인지 여자인지 구분
+		
+		System.out.println("주민번호를 입력하세요.");
+		String jum_in = scan.nextLine();
+		int ch = jum_in.charAt(7);
+		
+		if(ch % 2 == 0) {
+			System.out.println("여자입니다.");
+		}else if(ch % 2 == 1){
+			System.out.println("남자입니다.");
+		}else {
+			System.out.println("잘못된 입력입니다. 다시 시도해 주세요.");
+		}
+	}
+
+}

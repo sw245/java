@@ -1,0 +1,11 @@
+package ja0722;
+
+public class C0722_05 {
+
+	public static void main(String[] args) {
+		int share = 10/8 ;
+		System.out.println(share);
+
+	}
+
+}

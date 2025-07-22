@@ -1,0 +1,26 @@
+package ja0722;
+
+import java.util.Scanner;
+
+public class C0722_12 {
+
+	public static void main(String[] args) {
+		
+		// switch문: ( case @@ ) ~~ default
+		
+		// 전국 전화번호 국번 - 02: 서울, 031: 경기, 032: 인천
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("국번을 입력하세요.");
+		int input = scan.nextInt();
+		
+		switch(input) {
+		case 2:
+			System.out.println("서울 국번");
+			break;
+		}
+		
+		
+	}
+
+}

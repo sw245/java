@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class C0721_08 {
+
+	public static void main(String[] args) {
+		
+		// print() >> System.out.println();
+		
+		
+		// 화면에서 입력받기 > Scanner
+		
+		java.util.Scanner scan = new java.util.Scanner(System.in);	// import 없이 사용 시 구문
+//		Scanner s = new Scanner(System.in);	// 위 구문은 import 후 이것과 같음
+		
+		int num = scan.nextInt();
+		System.out.println("입력한 숫자 : "+num);
+		
+		
+//		String str = "abc";					// String은 일반 변수처럼 선언 가능 (예외)
+//		String str2 = new String("abc");	// 원래의 String 클래스 객체 선언 구문
+		
+
+	}
+
+}

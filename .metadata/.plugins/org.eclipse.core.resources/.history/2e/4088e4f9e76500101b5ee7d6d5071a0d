@@ -1,0 +1,11 @@
+
+public class C0721_05 {
+
+	public static void main(String[] args) {
+		char ch = 'A';
+		String str = "AB";
+//		char ch3 = ''	// 에러 (아무 값이 없을 수 없음)
+
+	}
+
+}

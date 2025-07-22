@@ -1,0 +1,83 @@
+package ja0722;
+
+import java.util.Scanner;
+
+public class C0722_05 {
+
+	public static void main(String[] args) {
+		/*
+		int share = 10/8 ;
+		System.out.println(share);
+		
+		double share2 = 10/8;		// int int 연산 >> 결과값 int
+		System.out.println(share2);
+		
+		double share3 = 10/8.0;
+		System.out.println(share3);
+		
+		int remain = 10 % 8;
+		System.out.println(remain);
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("숫자를 입력하세요.");
+		int input = scan.nextInt();
+		
+		if(input % 2 == 0) {
+			System.out.println("짝수입니다.");
+		}else {
+			System.out.println("홀수입니다.");
+		}
+		*/
+		
+		
+		/*
+		// 숫자를 입력받아, 10보다 큰 수인지 작은 수인지 출력하시오.
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("숫자를 입력하세요.");
+		int innum = scan.nextInt();
+		
+		if(innum > 10) {
+			System.out.println("10보다 큰 수입니다.");
+		}else if(innum == 10) {
+			System.out.println("10입니다.");
+		}else {
+			System.out.println("10보다 작은 수입니다.");
+		}
+		*/
+		
+		/*
+		if('0' == 48) {		// 'A':65, 'a':97, '0':48
+			System.out.println("같다.");
+		}else {
+			System.out.println("다르다.");
+		}
+		
+		
+		System.out.println((double)(0.1f));
+		System.out.println(0.1d);
+		
+		System.out.println((double)0.1f != 0.1d);
+		*/
+		
+		
+		// 1과 10 사이의 숫자인지 아닌지 판별
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("숫자를 입력하세요.");
+		int num = scan.nextInt();
+		
+		if(num<=10 && num>=1) {
+			System.out.println("1부터 10까지의 숫자입니다.");
+		}else {
+			System.out.println("1부터 10까지의 숫자가 아닙니다.");
+		}
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,45 @@
+package ja0722;
+
+import java.util.Scanner;
+
+public class C0722_07 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		/*
+		// 조건 연산자: ?
+		
+		int x = -10;
+		int absX = x>=0? x:-x;	// (condition)?(true_value):(false_value)
+		System.out.println(absX);
+		
+		int n = scan.nextInt();
+		String result = n%2==0?"짝수":"홀수";
+		*/
+		
+		/*
+		// 60점 합불 결과 출력
+		
+		System.out.println("숫자를 입력하세요.");
+		int input = scan.nextInt();
+		String result = input>=60? "합격" : "불합격";
+		System.out.println("결과 : "+result);
+		
+		// 0보다 크다. 0이다. 0보다 작다.
+		String result2 = (input>0)? "0보다 크다.": (input==0)? "0이다." : "0보다 작다.";	// 삼항식 중첩..
+		System.out.println(result2);
+		*/
+		
+		System.out.println("숫자 1을 입력하세요.");
+		int n1 = scan.nextInt();
+		
+		System.out.println("숫자 2를 입력하세요.");
+		int n2 = scan.nextInt();
+		
+		String result = (n1 > n2)? "n1이 크다." : (n1 == n2)? "n1과 n2는 같다." : "n2이 크다.";
+		
+	}
+
+}

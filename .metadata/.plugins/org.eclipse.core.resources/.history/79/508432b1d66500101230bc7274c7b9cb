@@ -1,0 +1,13 @@
+
+public class c0721_01 {
+
+	public static void main(String[] args) {
+//		print('안녕하세요');
+		System.out.println("안녕하세요.");
+		System.out.println("java start");
+
+		char c = 'A';
+//		char a = "a";	// 문자형은 홑따옴표 사용
+	}
+
+}

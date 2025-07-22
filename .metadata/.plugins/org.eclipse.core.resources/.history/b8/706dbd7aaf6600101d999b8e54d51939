@@ -1,0 +1,17 @@
+package ja0722;
+
+import java.util.Scanner;
+
+public class C0722_07 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		// 조건 연산자: ?
+		
+		int x = -10;
+		
+	}
+
+}

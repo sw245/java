@@ -1,0 +1,77 @@
+package ja0722;
+
+import java.util.Scanner;
+
+public class C0722_11 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+
+		// 1~3 숫자 맞히기
+		System.out.println("1부터 3까지의 수를 입력하세요.");
+		int input = scan.nextInt();
+		
+		// 1~100의 랜덤숫자 생성, 출력
+		
+		double r = Math.random();
+//		int ran_num = (int)(r * 100) + 1;
+		int ran_num = (int)(r * 3) + 1;
+		
+		if(input == ran_num) {
+			System.out.println("정답");
+		}else {
+			System.out.println("오답");
+		}
+		
+		// 응용: 가위바위보
+		// 가위 - 1, 바위 - 2, 보 - 3
+		// (입력값)/(랜덤값) >> 이기는 경우: 3/2, 2/1, 1/3
+		// (입력값)/(랜덤값) >> 지는 경우:
+		
+		
+		System.out.println("랜덤 숫자 : "+ran_num);
+		
+		
+		
+	
+		
+
+		/*
+		double m = Math.random();	// 0.0 <= Math.random() < 1
+		System.out.println(m);
+		
+		// 소수점 1자리만 나오게 절삭
+		double m_1 = Math.floor(m * 10.0) / 10.0;
+		System.out.println("소수점 한 자리 : "+m_1);
+		
+		int m_2 = (int)Math.floor(m * 10);
+		System.out.println(m_2);
+		*/
+		
+		
+		/*
+		boolean power = false;
+		if(power) {
+			power = !power;
+		}else {
+			power = !power;
+		}
+		*/
+		
+		
+		/*
+		System.out.println("문자를 입력하세요.");
+		String input = scan.nextLine();		// enter 입력 가능
+		char ch = ' ';
+		
+//		String input = "";
+		if(input != null && !input.equals("")) {
+			ch = input.charAt(0);			
+		}
+		
+		System.out.println("출력 : "+ch);
+		 */
+	}
+
+}

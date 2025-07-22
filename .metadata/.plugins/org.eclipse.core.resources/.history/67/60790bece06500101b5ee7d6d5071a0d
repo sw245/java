@@ -1,0 +1,16 @@
+
+public class C0721_03 {
+
+	public static void main(String[] args) {
+		int a = 10;
+		a = 20;
+		a = 50;
+		System.out.println("a : "+a);
+		int b = 100;
+		b = 200;
+		
+		System.out.println("b : "+b);
+		
+	}
+
+}
