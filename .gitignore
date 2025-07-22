@@ -1,0 +1,13 @@
+# Eclipse 설정 파일 무시
+.metadata/
+*.class
+bin/
+tmp/
+.settings/
+
+# OS별 불필요한 파일
+.DS_Store
+Thumbs.db
+
+# 로그 파일
+*.log

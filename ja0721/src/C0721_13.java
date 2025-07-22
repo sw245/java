@@ -1,0 +1,21 @@
+
+public class C0721_13 {
+
+	public static void main(String[] args) {
+		int a = 1000000;
+		int b = 2000000;
+		long c = a*b;
+		System.out.println("c : "+c);
+		
+		long d = (long)a * (long)b;	// 둘 중 하나만 바꿔도 됨
+		System.out.println("d : "+d);
+		
+		int e = 1000000;
+		int f = a * e / a ;
+		System.out.println("f : "+f);
+		int g = a / e * a;
+		System.out.println("g : "+g);
+		
+	}
+
+}
