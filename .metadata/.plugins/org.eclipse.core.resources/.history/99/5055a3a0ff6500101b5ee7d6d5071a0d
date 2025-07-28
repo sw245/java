@@ -1,9 +1,0 @@
-
-public class C0721_10 {
-
-	public static void main(String[] args) {
-		// 이름, 국어점수, 영어점수 입력받아서 합계까지 출력하기 
-
-	}
-
-}

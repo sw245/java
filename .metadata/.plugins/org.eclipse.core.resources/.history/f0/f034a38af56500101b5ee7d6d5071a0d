@@ -1,9 +1,0 @@
-
-public class C0721_07 {
-
-	public static void main(String[] args) {
-		int a = 7000000;
-		int result = 7000000 * 7000000 / 7000000;
-	}
-
-}
