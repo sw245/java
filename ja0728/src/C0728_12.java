@@ -8,13 +8,16 @@ public class C0728_12 {
 		
 		System.out.println(d.x);
 		
-		C0728_12.change(d.x);
+		change(d.x);
 		System.out.println("change 호출 후 : "+d.x);
 		
 		
 		C0728_12.change2(d);
 		System.out.println("참조형 변수로 호출 후 : "+d.x);
 		
+		
+		sta = "같은 클래스에서 클래스 선택자(?) 없이 사용 가능?";
+		sta += " ㅇㅇ";
 		
 		/*
 		Cal c = new Cal();
@@ -49,7 +52,9 @@ public class C0728_12 {
 	void add2(int a, int b) {
 		System.out.println(a+b);
 	}
-
+	
+	static String sta = "클래스 변수";
+	
 }
 
 class Data{
