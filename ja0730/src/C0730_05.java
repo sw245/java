@@ -3,6 +3,7 @@ public class C0730_05 {
 
 	public static void main(String[] args) {
 
+		/*
 		Time t1 = new Time();
 		t1.hour = 12;
 		t1.minute = 50;
@@ -11,7 +12,7 @@ public class C0730_05 {
 				t1.hour,t1.minute,t1.second);
 		
 		t1.hour = 100;
-		
+		*/
 		
 	}
 
