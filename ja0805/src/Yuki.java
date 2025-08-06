@@ -1,3 +1,4 @@
+import java.util.HashMap;
 
 public class Yuki {
 
@@ -5,8 +6,11 @@ public class Yuki {
 	
 	String[] ground = {"water", "snow", "dry"};
 	
-	void sun() {
+	HashMap map = new HashMap();
 	
+	
+	void sun() {
+		
 	}
 	
 	

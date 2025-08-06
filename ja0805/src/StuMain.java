@@ -36,7 +36,31 @@ public class StuMain {
 				stuDeck.stu_output(list);
 				break;
 				
+			case 3:
+				stuDeck.stu_update(list);
+				break;
+				
+			case 4:
+				stuDeck.stu_remove(list);
+				break;
+				
+			case 5:	// 등수처리
+				stuDeck.stu_rank(list);
+				break;
+				
+			case 6:
+				stuDeck.stu_sortName(list);;
+				break;
+				
 			case 7:
+				stuDeck.stu_sortTotal(list);
+				break;
+				
+			case 8:
+				stuDeck.stu_sortNo(list);
+				break;
+				
+			case 9:
 				stuDeck.stu_FileSave(list);
 				break;
 			}
